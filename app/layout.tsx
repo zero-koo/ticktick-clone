@@ -23,9 +23,9 @@ export default function RootLayout({
 }) {
   return (
     <>
-      <html lang="en" suppressHydrationWarning>
+      <html lang="en" suppressHydrationWarning className="h-full">
         <head />
-        <body className="flex">
+        <body className="flex h-full">
           <nav className="flex flex-col bg-background px-0.5 py-1">
             <NavMenuButton Icon={ListTodoIcon} active />
             <NavMenuButton Icon={CalendarIcon} />
