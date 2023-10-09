@@ -1,11 +1,5 @@
-import { Button } from "@/components/ui/button";
+import { redirect } from 'next/navigation';
 
-export default function Home() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <Button variant={"default"} size={"sm"}>
-        Button
-      </Button>
-    </main>
-  );
+export default function HomePage() {
+  redirect('/task');
 }
